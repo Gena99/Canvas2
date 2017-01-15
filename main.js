@@ -29,7 +29,7 @@ function Draw(x, y, isDown) {
 	console.log('draw ?');
     if (isDown) {
         ctx.beginPath();
-        ctx.strokeStyle = $('#SelCouleur').val();
+        ctx.strokeStyle = $('#selCouleur').val();
         ctx.lineWidth = $('#selEpaisseur').val();
         ctx.lineJoin = "round";
         ctx.moveTo(lastX, lastY);
