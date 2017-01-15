@@ -1,0 +1,20 @@
+
+body{
+  overflow:hidden;
+}
+#mycanvas
+{
+  background-color:#fff;
+}
+.controls
+{
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color:#2277dd;
+  padding:5px;
+  margin:2px;
+  color:#fff;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}

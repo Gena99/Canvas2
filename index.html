@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<link rel="stylesheet" type="text/css" href="style.css">
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js "></script>
+    <script type="text/javascript" src="main.js"></script>
+    <div align="center">
+        <canvas id="myCanvas" width="500" height="200" style="border:2px solid black"></canvas>
+        <br /><br />
+        <button onclick="javascript:Effacer();return false;">Effacer</button>
+         Epaisseur du trait: <select id="selEpaisseur">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="9" selected="selected">9</option>
+            <option value="11">11</option>
+        </select>
+        Couleur : <select id="SelCouleur">
+            <option value="Noir">Noir</option>
+            <option value="Bleu" selected="selected">Bleu</option>
+            <option value="Rouge">Rouge</option>
+            <option value="Vert">Vert</option>
+            <option value="Jaune">Jaune</option>
+            <option value="Gris">Gris</option>
+        </select>
+    </div>
+    <div class="tools">
+  <a href="#colors_sketch" data-download="png" style="float: right; width: 100px;">Download</a>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		InitialiserOutilsDessin();
+	});
+</script>
+</body>
+</html>
